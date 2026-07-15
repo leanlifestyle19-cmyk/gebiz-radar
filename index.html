@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1b2a">
+<title>GeBIZ Awards Radar</title>
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icon-192.png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<style>
+  :root{
+    --bg:#0d1b2a; --bg2:#13263a; --card:#182f47; --card2:#1f3a56;
+    --tx:#e8eef4; --tx2:#93a8bc; --tx3:#5f7488;
+    --teal:#1b9aaa; --teal2:#2fc2d4; --amber:#f4a259; --red:#e5646c; --green:#5cc98f;
+    --line:#24405d; --radius:12px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent}
+  html,body{height:100%}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; /* M2 */
+    background:var(--bg); color:var(--tx); overscroll-behavior:none;
+  }
+  #app{height:100%; display:flex; flex-direction:column}
+
+  /* Header */
+  header{flex-shrink:0; padding:12px 16px 8px; background:var(--bg);
+    padding-top:calc(12px + env(safe-area-inset-top))}
+  .hrow{display:flex; align-items:center; justify-content:space-between; gap:8px}
+  h1{font-size:1.15rem; letter-spacing:.3px}
+  h1 span{color:var(--teal2)}
+  #metaline{font-size:.72rem; color:var(--tx3); margin-top:2px; min-height:1em}
+  #refreshBtn{background:var(--card); color:var(--teal2); border:1px solid var(--line);
+    border-radius:8px; padding:6px 12px; font-size:.8rem; font-weight:600}
+  #refreshBtn:active{background:var(--card2)}
+  #banner{display:none; font-size:.75rem; padding:6px 16px; background:#3a2b16; color:var(--amber)}
+  #banner.err{background:#3a1a1e; color:var(--red)}
+  #banner.show{display:block}
+
+  /* Toolbar (search + filters) */
+  #toolbar{flex-shrink:0; padding:8px 16px; display:flex; flex-direction:column; gap:8px}
+  #searchBox{width:100%; padding:10px 12px; border-radius:var(--radius); border:1px solid var(--line);
+    background:var(--bg2); color:var(--tx); font-size:.9rem; outline:none}
+  #searchBox::placeholder{color:var(--tx3)}
+  .selrow{display:flex; gap:8px}
+  .selrow select{flex:1; min-width:0; padding:8px; border-radius:8px; border:1px solid var(--line);
+    background:var(--bg2); color:var(--tx2); font-size:.78rem; outline:none}
+
+  /* Scroll area — M8 */
+  main{flex:1; min-height:0; overflow-y:auto; padding:4px 16px 16px;
+    -webkit-overflow-scrolling:touch}
+
+  /* Cards */
+  .card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:12px; margin-bottom:10px}
+  .trow{display:flex; justify-content:space-between; align-items:baseline; gap:8px}
+  .agency{font-size:.72rem; color:var(--teal2); font-weight:600; text-transform:uppercase;
+    letter-spacing:.4px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .amt{font-size:.95rem; font-weight:700; color:var(--amber); white-space:nowrap}
+  .amt.zero{color:var(--tx3)}
+  .desc{font-size:.85rem; line-height:1.35; margin:6px 0 8px; color:var(--tx)}
+  .chiprow{display:flex; flex-wrap:wrap; gap:6px; align-items:center}
+  .chip{font-size:.66rem; padding:2px 8px; border-radius:99px; background:var(--bg2);
+    color:var(--tx2); border:1px solid var(--line)}
+  .chip.new{background:#153a2b; color:var(--green); border-color:#1e5540; font-weight:700}
+  .chip.noaward{background:#3a1a1e; color:var(--red); border-color:#5a2a30}
+  .chip.score{color:var(--teal2)}
+  .detail{display:none; margin-top:10px; border-top:1px dashed var(--line); padding-top:10px}
+  .card.open .detail{display:block}
+  .suprow{display:flex; justify-content:space-between; gap:8px; font-size:.8rem;
+    padding:4px 0; color:var(--tx)}
+  .suprow .amt{font-size:.8rem}
+  .kwline{font-size:.7rem; color:var(--tx3); margin-top:8px; line-height:1.5}
+  .datefoot{font-size:.68rem; color:var(--tx3); margin-top:6px}
+
+  /* Leaderboards (agencies / suppliers) */
+  .lb{display:flex; align-items:center; gap:10px; padding:11px 12px}
+  .lb .rank{width:24px; text-align:center; font-weight:700; color:var(--tx3); font-size:.85rem; flex-shrink:0}
+  .lb .rank.top{color:var(--amber)}
+  .lb .name{flex:1; min-width:0; font-size:.84rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .lb .sub{font-size:.68rem; color:var(--tx3); margin-top:1px}
+  .lb .val{text-align:right; flex-shrink:0}
+  .bar{height:3px; background:var(--bg2); border-radius:2px; margin:0 16px 8px 50px; overflow:hidden}
+  .bar i{display:block; height:100%; background:var(--teal); border-radius:2px}
+
+  .empty{text-align:center; color:var(--tx3); padding:48px 24px; font-size:.85rem; line-height:1.6}
+  .empty b{color:var(--tx2)}
+  .sechead{font-size:.72rem; color:var(--tx3); text-transform:uppercase; letter-spacing:.5px;
+    margin:14px 2px 8px; font-weight:700}
+
+  /* Bottom nav */
+  nav{flex-shrink:0; display:flex; border-top:1px solid var(--line); background:var(--bg2);
+    padding-bottom:env(safe-area-inset-bottom)}
+  nav button{flex:1; background:none; border:none; color:var(--tx3); padding:10px 0 8px;
+    font-size:.68rem; font-weight:600; display:flex; flex-direction:column; align-items:center; gap:3px}
+  nav button .ico{font-size:1.15rem; line-height:1}
+  nav button.active{color:var(--teal2)}
+  nav button .badge{position:absolute; display:none}
+  .navwrap{position:relative}
+  #newBadge{position:absolute; top:6px; right:calc(50% - 22px); background:var(--red); color:#fff;
+    font-size:.6rem; font-weight:700; border-radius:99px; padding:1px 5px; display:none}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="hrow">
+      <div>
+        <h1>GeBIZ <span>Awards Radar</span></h1>
+        <div id="metaline">Loading…</div>
+      </div>
+      <button id="refreshBtn">↻ Refresh</button>
+    </div>
+  </header>
+  <div id="banner"></div>
+
+  <div id="toolbar">
+    <input id="searchBox" type="search" placeholder="Search tenders, agencies, suppliers…" autocomplete="off">
+    <div class="selrow" id="filterRow">
+      <select id="agencySel"><option value="">All agencies</option></select>
+      <select id="sortSel">
+        <option value="date">Newest first</option>
+        <option value="amount">Highest value</option>
+        <option value="score">Best match</option>
+      </select>
+    </div>
+  </div>
+
+  <main id="main"></main>
+
+  <nav>
+    <div class="navwrap" style="flex:1;display:flex">
+      <button data-tab="new"><span class="ico">✦</span>New<span id="newBadge"></span></button>
+    </div>
+    <button data-tab="tenders" class="active"><span class="ico">▤</span>Tenders</button>
+    <button data-tab="agencies"><span class="ico">⛁</span>Agencies</button>
+    <button data-tab="suppliers"><span class="ico">◈</span>Suppliers</button>
+  </nav>
+</div>
+
+<script>
+// M3: register SW FIRST, before any async/init code
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
+
+// M6: local date helper — never toISOString()
+function localDateStr(d = new Date()) {
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+function today(){ return localDateStr(new Date()); }
+
+/* ---------- IndexedDB (guarded — M7) ---------- */
+const DB_NAME='gebizradar', DB_VER=1, STORE='kv';
+let dbPromise=null;
+function openDB(){
+  if(dbPromise) return dbPromise;
+  dbPromise = new Promise((res)=>{
+    try{
+      const req = indexedDB.open(DB_NAME, DB_VER);
+      req.onupgradeneeded = e=>{
+        const d = e.target.result;
+        if(!d.objectStoreNames.contains(STORE)) d.createObjectStore(STORE);   // M7
+      };
+      req.onsuccess = e=>res(e.target.result);
+      req.onerror  = ()=>res(null);   // degrade gracefully
+    }catch(_){ res(null); }
+  });
+  return dbPromise;
+}
+async function idbGet(key){
+  const d = await openDB(); if(!d) return null;
+  return new Promise(res=>{
+    try{
+      const tx = d.transaction(STORE,'readonly').objectStore(STORE).get(key);
+      tx.onsuccess = ()=>res(tx.result ?? null);
+      tx.onerror   = ()=>res(null);
+    }catch(_){ res(null); }
+  });
+}
+async function idbSet(key,val){
+  const d = await openDB(); if(!d) return;
+  try{ d.transaction(STORE,'readwrite').objectStore(STORE).put(val,key); }catch(_){}
+}
+
+/* ---------- State ---------- */
+let DATA = null;          // full awards.json
+let tab  = 'tenders';
+let query = '', agencyFilter = '', sortMode = 'date';
+const NEW_WINDOW_DAYS = 21;   // "New" tab = firstSeen within this many days
+
+/* ---------- Formatting ---------- */
+function fmtMoney(n){
+  if(!n) return 'S$0';
+  if(n >= 1e9)  return 'S$' + (n/1e9).toFixed(2) + 'B';
+  if(n >= 1e6)  return 'S$' + (n/1e6).toFixed(2) + 'M';
+  if(n >= 1e3)  return 'S$' + Math.round(n/1e3) + 'K';
+  return 'S$' + Math.round(n);
+}
+function esc(s){
+  return String(s ?? '').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function daysAgo(iso){
+  if(!iso) return 9999;
+  const [y,m,d] = iso.split('-').map(Number);
+  const then = new Date(y, m-1, d);
+  const [ty,tm,td] = today().split('-').map(Number);
+  const now = new Date(ty, tm-1, td);
+  return Math.round((now - then) / 86400000);
+}
+function titleCase(s){
+  return String(s??'').toLowerCase().replace(/(^|[\s(/-])([a-z])/g,(m,p,c)=>p+c.toUpperCase());
+}
+
+/* ---------- Data load: network-first, IDB fallback ---------- */
+async function loadData(forced){
+  setMeta('Loading…');
+  try{
+    const res = await fetch('./data/awards.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP ' + res.status);   // M10: surface status
+    const json = await res.json();
+    DATA = json;
+    idbSet('awards', json);
+    hideBanner();
+    if(forced) showBanner('Data refreshed.', false, 1800);
+  }catch(err){
+    const cached = await idbGet('awards');
+    if(cached){
+      DATA = cached;
+      showBanner('Offline — showing last saved data (' + (err.message||err) + ')', false);
+    }else{
+      DATA = null;
+      showBanner('Could not load data: ' + (err.message||err), true);
+    }
+  }
+  buildAgencyFilter();
+  render();
+}
+
+function setMeta(t){ document.getElementById('metaline').textContent = t; }
+let bannerTimer=null;
+function showBanner(msg, isErr, autohide){
+  const b = document.getElementById('banner');
+  b.textContent = msg; b.className = 'show' + (isErr?' err':'');
+  clearTimeout(bannerTimer);
+  if(autohide) bannerTimer = setTimeout(hideBanner, autohide);
+}
+function hideBanner(){ document.getElementById('banner').className=''; }
+
+/* ---------- Derived views ---------- */
+function tenders(){ return (DATA && DATA.tenders) || []; }
+
+function filteredTenders(){
+  let list = tenders();
+  if(agencyFilter) list = list.filter(t => t.agency === agencyFilter);
+  if(query){
+    const q = query.toLowerCase();
+    list = list.filter(t =>
+      (t.description||'').toLowerCase().includes(q) ||
+      (t.agency||'').toLowerCase().includes(q) ||
+      (t.suppliers||[]).some(s => (s.name||'').toLowerCase().includes(q))
+    );
+  }
+  const key = {date: t=>t.awardDate||'', amount: t=>t.totalAwarded||0, score: t=>t.score||0}[sortMode];
+  return [...list].sort((a,b)=> key(b) > key(a) ? 1 : key(b) < key(a) ? -1 : 0);
+}
+
+function newTenders(){
+  return tenders()
+    .filter(t => daysAgo(t.firstSeen) <= NEW_WINDOW_DAYS)
+    .sort((a,b)=> (b.firstSeen||'').localeCompare(a.firstSeen||'') ||
+                  (b.awardDate||'').localeCompare(a.awardDate||''));
+}
+
+function supplierBoard(){
+  const map = {};
+  for(const t of filteredTenders()){
+    for(const s of (t.suppliers||[])){
+      const m = map[s.name] = map[s.name] || {name:s.name, total:0, wins:0, agencies:new Set()};
+      m.total += s.amount||0; m.wins += 1; m.agencies.add(t.agency);
+    }
+  }
+  return Object.values(map).sort((a,b)=>b.total-a.total);
+}
+
+/* ---------- Renderers ---------- */
+function tenderCard(t){
+  const isNew = daysAgo(t.firstSeen) <= NEW_WINDOW_DAYS;
+  const noAward = (t.status||'').includes('No Suppliers');
+  const sups = (t.suppliers||[]).map(s =>
+    `<div class="suprow"><span>${esc(titleCase(s.name))}</span><span class="amt">${fmtMoney(s.amount)}</span></div>`
+  ).join('') || '<div class="suprow" style="color:var(--tx3)">No supplier recorded</div>';
+  return `<div class="card" data-tno="${esc(t.tenderNo)}">
+    <div class="trow">
+      <div class="agency">${esc(t.agency)}</div>
+      <div class="amt${t.totalAwarded?'':' zero'}">${fmtMoney(t.totalAwarded)}</div>
+    </div>
+    <div class="desc">${esc(titleCase(t.description))}</div>
+    <div class="chiprow">
+      ${isNew ? '<span class="chip new">NEW</span>' : ''}
+      ${noAward ? '<span class="chip noaward">No award</span>' : ''}
+      <span class="chip">${esc(t.awardDate||'no date')}</span>
+      <span class="chip score">match ${t.score}</span>
+      <span class="chip">${(t.suppliers||[]).length} supplier${(t.suppliers||[]).length===1?'':'s'}</span>
+    </div>
+    <div class="detail">
+      ${sups}
+      <div class="kwline">Matched: ${esc((t.matched||[]).join(', '))}</div>
+      <div class="datefoot">${esc(t.tenderNo)} · first seen ${esc(t.firstSeen||'?')}</div>
+    </div>
+  </div>`;
+}
+
+function renderTenders(el){
+  const list = filteredTenders();
+  if(!list.length){ el.innerHTML = emptyState('No tenders match.'); return; }
+  el.innerHTML = list.map(tenderCard).join('');
+}
+
+function renderNew(el){
+  const list = newTenders();
+  if(!list.length){
+    el.innerHTML = emptyState(`Nothing new in the last ${NEW_WINDOW_DAYS} days.<br>New awards appear here after each weekly data run.`);
+    return;
+  }
+  let html = '', lastDate = '';
+  for(const t of list){
+    if(t.firstSeen !== lastDate){
+      lastDate = t.firstSeen;
+      const ago = daysAgo(t.firstSeen);
+      html += `<div class="sechead">Seen ${esc(t.firstSeen)}${ago===0?' · today':ago===1?' · yesterday':' · '+ago+' days ago'}</div>`;
+    }
+    html += tenderCard(t);
+  }
+  el.innerHTML = html;
+}
+
+function renderAgencies(el){
+  const src = (DATA && DATA.agencies) || [];
+  const rows = agencyFilter ? src.filter(a=>a.agency===agencyFilter) : src;
+  if(!rows.length){ el.innerHTML = emptyState('No agency data yet.'); return; }
+  const max = Math.max(...rows.map(a=>a.totalAwarded), 1);
+  el.innerHTML = rows.map((a,i)=>`
+    <div class="card" style="padding:0">
+      <div class="lb" data-agency="${esc(a.agency)}">
+        <div class="rank${i<3?' top':''}">${i+1}</div>
+        <div class="name">${esc(a.agency)}<div class="sub">${a.tenders} matched tender${a.tenders===1?'':'s'}</div></div>
+        <div class="val"><div class="amt">${fmtMoney(a.totalAwarded)}</div></div>
+      </div>
+      <div class="bar"><i style="width:${Math.max(2, a.totalAwarded/max*100)}%"></i></div>
+    </div>`).join('');
+}
+
+function renderSuppliers(el){
+  const rows = supplierBoard();
+  if(!rows.length){ el.innerHTML = emptyState('No supplier data yet.'); return; }
+  const max = Math.max(...rows.map(s=>s.total), 1);
+  el.innerHTML = rows.map((s,i)=>`
+    <div class="card" style="padding:0">
+      <div class="lb">
+        <div class="rank${i<3?' top':''}">${i+1}</div>
+        <div class="name">${esc(titleCase(s.name))}
+          <div class="sub">${s.wins} win${s.wins===1?'':'s'} · ${s.agencies.size} agenc${s.agencies.size===1?'y':'ies'}</div></div>
+        <div class="val"><div class="amt">${fmtMoney(s.total)}</div></div>
+      </div>
+      <div class="bar"><i style="width:${Math.max(2, s.total/max*100)}%"></i></div>
+    </div>`).join('');
+}
+
+function emptyState(msg){
+  if(!DATA || !tenders().length){
+    return `<div class="empty"><b>No data yet.</b><br><br>Run the <b>Update GeBIZ awards data</b> workflow in the repo's Actions tab to populate <code>data/awards.json</code>, then pull to refresh here.</div>`;
+  }
+  return `<div class="empty">${msg}</div>`;
+}
+
+function render(){
+  const el = document.getElementById('main');
+  // meta line
+  if(DATA && DATA.meta && DATA.meta.lastUpdated){
+    const m = DATA.meta;
+    setMeta(`${m.matchedTenders ?? tenders().length} tenders · updated ${String(m.lastUpdated).slice(0,10)}${m.newThisRun ? ' · ' + m.newThisRun + ' new' : ''}`);
+  }else{
+    setMeta('No data loaded');
+  }
+  // new badge
+  const nb = document.getElementById('newBadge');
+  const nc = DATA ? newTenders().length : 0;
+  nb.style.display = nc ? 'block' : 'none';
+  nb.textContent = nc;
+  // toolbar visibility: search/filters matter on tenders & suppliers
+  document.getElementById('toolbar').style.display = (tab==='new') ? 'none' : 'flex';
+  document.getElementById('filterRow').style.display = (tab==='tenders'||tab==='agencies') ? 'flex' : 'none';
+
+  ({new:renderNew, tenders:renderTenders, agencies:renderAgencies, suppliers:renderSuppliers}[tab])(el);
+  el.scrollTop = 0;
+}
+
+function buildAgencyFilter(){
+  const sel = document.getElementById('agencySel');
+  const cur = sel.value;
+  const names = [...new Set(tenders().map(t=>t.agency))].sort();
+  sel.innerHTML = '<option value="">All agencies</option>' +
+    names.map(n=>`<option value="${esc(n)}">${esc(n)}</option>`).join('');
+  if(names.includes(cur)) sel.value = cur;
+}
+
+/* ---------- Events ---------- */
+document.querySelectorAll('nav button[data-tab]').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    tab = btn.dataset.tab;
+    document.querySelectorAll('nav button[data-tab]').forEach(b=>b.classList.toggle('active', b===btn));
+    render();
+  });
+});
+document.getElementById('searchBox').addEventListener('input', e=>{
+  query = e.target.value.trim(); render();
+});
+document.getElementById('agencySel').addEventListener('change', e=>{
+  agencyFilter = e.target.value; render();
+});
+document.getElementById('sortSel').addEventListener('change', e=>{
+  sortMode = e.target.value; render();
+});
+document.getElementById('refreshBtn').addEventListener('click', ()=>loadData(true));
+document.getElementById('main').addEventListener('click', e=>{
+  const lb = e.target.closest('.lb[data-agency]');
+  if(lb){   // agency row -> jump to tenders filtered by that agency
+    agencyFilter = lb.dataset.agency;
+    document.getElementById('agencySel').value = agencyFilter;
+    tab = 'tenders';
+    document.querySelectorAll('nav button[data-tab]').forEach(b=>b.classList.toggle('active', b.dataset.tab==='tenders'));
+    render();
+    return;
+  }
+  const card = e.target.closest('.card[data-tno]');
+  if(card) card.classList.toggle('open');
+});
+
+/* ---------- Init ---------- */
+loadData(false);
+</script>
+</body>
+</html>

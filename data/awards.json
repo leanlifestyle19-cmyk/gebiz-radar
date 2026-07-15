@@ -1,0 +1,1716 @@
+{
+ "meta": {
+  "lastUpdated": "2026-07-15T22:28:52+08:00",
+  "sourceDataset": "d_acde1106003906a75c3fa052592f2fcb",
+  "sourceRows": 18464,
+  "matchedTenders": 73,
+  "newThisRun": 73,
+  "minScore": 5
+ },
+ "agencies": [
+  {
+   "agency": "SkillsFuture Singapore",
+   "tenders": 3,
+   "totalAwarded": 106208338.1
+  },
+  {
+   "agency": "Land Transport Authority",
+   "tenders": 2,
+   "totalAwarded": 64643100.62
+  },
+  {
+   "agency": "Ministry of Social and Family Development - Ministry Headquarter",
+   "tenders": 6,
+   "totalAwarded": 14987595.54
+  },
+  {
+   "agency": "Attorney-General's Chambers",
+   "tenders": 5,
+   "totalAwarded": 13198220.0
+  },
+  {
+   "agency": "National Council of Social Service",
+   "tenders": 5,
+   "totalAwarded": 10671350.0
+  },
+  {
+   "agency": "Government Technology Agency  (GovTech)",
+   "tenders": 4,
+   "totalAwarded": 8019987.0
+  },
+  {
+   "agency": "Maritime and Port Authority of Singapore",
+   "tenders": 4,
+   "totalAwarded": 6056725.0
+  },
+  {
+   "agency": "Singapore Polytechnic",
+   "tenders": 4,
+   "totalAwarded": 4062200.0
+  },
+  {
+   "agency": "Tote Board",
+   "tenders": 1,
+   "totalAwarded": 3752000.0
+  },
+  {
+   "agency": "Ministry of Finance - Vital",
+   "tenders": 2,
+   "totalAwarded": 3236140.0
+  },
+  {
+   "agency": "Health Promotion Board",
+   "tenders": 1,
+   "totalAwarded": 1971649.0
+  },
+  {
+   "agency": "National Arts Council",
+   "tenders": 6,
+   "totalAwarded": 1834944.25
+  },
+  {
+   "agency": "Singapore Food Agency",
+   "tenders": 2,
+   "totalAwarded": 1421554.0
+  },
+  {
+   "agency": "Building and Construction Authority",
+   "tenders": 2,
+   "totalAwarded": 1382508.0
+  },
+  {
+   "agency": "Enterprise Singapore",
+   "tenders": 2,
+   "totalAwarded": 1276000.0
+  },
+  {
+   "agency": "Economic Development Board",
+   "tenders": 3,
+   "totalAwarded": 1182982.0
+  },
+  {
+   "agency": "Intellectual Property Office of Singapore",
+   "tenders": 2,
+   "totalAwarded": 1173162.0
+  },
+  {
+   "agency": "Sentosa Development Corporation",
+   "tenders": 1,
+   "totalAwarded": 1168000.0
+  },
+  {
+   "agency": "Ministry of Law-Ministry Headquarter",
+   "tenders": 1,
+   "totalAwarded": 987000.0
+  },
+  {
+   "agency": "Ministry of Education",
+   "tenders": 1,
+   "totalAwarded": 898800.0
+  },
+  {
+   "agency": "Monetary Authority of Singapore",
+   "tenders": 2,
+   "totalAwarded": 704250.0
+  },
+  {
+   "agency": "Singapore Tourism Board",
+   "tenders": 1,
+   "totalAwarded": 683000.0
+  },
+  {
+   "agency": "Civil Aviation Authority of Singapore",
+   "tenders": 1,
+   "totalAwarded": 550000.0
+  },
+  {
+   "agency": "Communicable Diseases Agency",
+   "tenders": 1,
+   "totalAwarded": 498000.0
+  },
+  {
+   "agency": "Singapore Sports Council (Sport Singapore)",
+   "tenders": 2,
+   "totalAwarded": 355128.43
+  },
+  {
+   "agency": "People's Association",
+   "tenders": 1,
+   "totalAwarded": 268600.0
+  },
+  {
+   "agency": "Central Provident Fund Board",
+   "tenders": 2,
+   "totalAwarded": 257154.5
+  },
+  {
+   "agency": "Inland Revenue Authority of Singapore",
+   "tenders": 1,
+   "totalAwarded": 215699.0
+  },
+  {
+   "agency": "Majlis Ugama Islam Singapura",
+   "tenders": 1,
+   "totalAwarded": 199100.0
+  },
+  {
+   "agency": "Ministry of Culture, Community and Youth - Ministry Headquarter",
+   "tenders": 1,
+   "totalAwarded": 198000.0
+  },
+  {
+   "agency": "Ministry of Home Affairs - Ministry Headquarter 1",
+   "tenders": 1,
+   "totalAwarded": 190000.0
+  },
+  {
+   "agency": "Ministry of Manpower-Ministry Headquarter",
+   "tenders": 1,
+   "totalAwarded": 185050.0
+  },
+  {
+   "agency": "Singapore Land Authority",
+   "tenders": 1,
+   "totalAwarded": 0.0
+  }
+ ],
+ "tenders": [
+  {
+   "tenderNo": "CDVHQ0ETT25000027",
+   "description": "Invitation to Tender for the Provision of Consultancy Services for ECDA's Job Redesign Initiative for the Early Childhood Sector",
+   "agency": "Ministry of Social and Family Development - Ministry Headquarter",
+   "awardDate": "2026-03-27",
+   "status": "Awarded to Suppliers",
+   "score": 9,
+   "matched": [
+    "job redesign",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "MERCER (SINGAPORE) PTE. LTD.",
+     "amount": 838000.0
+    }
+   ],
+   "totalAwarded": 838000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "EDB000ETT25000019",
+   "description": "Invitation to Tender (ITT) for the Study on Logistics Job Transformation Map (\"JTM\"). OIC: Siti Syuhaida (PR20250863)",
+   "agency": "Economic Development Board",
+   "awardDate": "2026-03-16",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "MERCER (SINGAPORE) PTE. LTD.",
+     "amount": 650000.0
+    }
+   ],
+   "totalAwarded": 650000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NAC000ETT25000017",
+   "description": "National Arts Council (NAC) will be hosting a series of events in 2026 with an option to extend for 2027 and 2028. NAC seeks to implement digital event solutions that will enhance attendee experience and showcase our organisation's commitment to digital transformation.   NAC requires a vendor with experience in planning, developing, deploying and maintaining digital event solutions across the scope of work in the different stages.",
+   "agency": "National Arts Council",
+   "awardDate": "2026-01-14",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "digital transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "GLOBALSIGN.IN PTE. LTD.",
+     "amount": 179066.25
+    }
+   ],
+   "totalAwarded": 179066.25,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MHA00003000026140",
+   "description": "CONSULTANCY SERVICES TO PERFORM BUSINESS PROCESS MAPPING FOR POLICE CUSTODIAL MANAGEMENT SYSTEM 2.0",
+   "agency": "Ministry of Home Affairs - Ministry Headquarter 1",
+   "awardDate": "2025-12-19",
+   "status": "Award by interface record",
+   "score": 8,
+   "matched": [
+    "business process",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "PRICEWATERHOUSECOOPERS RISK SERVICES PTE. LTD.",
+     "amount": 190000.0
+    }
+   ],
+   "totalAwarded": 190000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MOMHQ0ETT25000002",
+   "description": "Provision of Behavioural Insights Consultancy and Capability Development Services for a Period of Two (2) Years.",
+   "agency": "Ministry of Manpower-Ministry Headquarter",
+   "awardDate": "2025-12-11",
+   "status": "Awarded to Suppliers",
+   "score": 10,
+   "matched": [
+    "capability development",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "VERIAN GROUP PTE. LTD.",
+     "amount": 185050.0
+    }
+   ],
+   "totalAwarded": 185050.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "HPB000ETT25000003",
+   "description": "CMT05/24 Invitation to Tender (ITT) for the provision of Experience Design & Transformation Services",
+   "agency": "Health Promotion Board",
+   "awardDate": "2025-11-03",
+   "status": "Awarded by Items",
+   "score": 6,
+   "matched": [
+    "transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "ACCENTURE SG SERVICES PTE. LTD.",
+     "amount": 823001.0
+    },
+    {
+     "name": "ALEPH PTE. LTD.",
+     "amount": 342002.0
+    },
+    {
+     "name": "Ernst & Young Advisory PTE. LTD.",
+     "amount": 2.0
+    },
+    {
+     "name": "KPMG SERVICES PTE. LTD.",
+     "amount": 420002.0
+    },
+    {
+     "name": "VALTECH DIGITAL SINGAPORE PTE. LTD.",
+     "amount": 386642.0
+    }
+   ],
+   "totalAwarded": 1971649.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NAC000ETT25000011",
+   "description": "The National Arts Council (NAC) seeks a consultant experienced in organisational digitalisation to support its Digital Adoption Plan Pilot. The consultant will provide digitalisation consultancy services to selected arts organisations, develop a digitalisation handbook, and curate relevant digital solutions and funding resources to accelerate digital adoption across the arts sector.",
+   "agency": "National Arts Council",
+   "awardDate": "2025-10-24",
+   "status": "Awarded to Suppliers",
+   "score": 7,
+   "matched": [
+    "digitalisation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "TQ SOLUTIONS PTE. LTD.",
+     "amount": 379995.0
+    }
+   ],
+   "totalAwarded": 379995.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SSC000ETT25000018",
+   "description": "Provision of Renovation Works for the Venue Transformation at Clementi Sport Centre",
+   "agency": "Singapore Sports Council (Sport Singapore)",
+   "awardDate": "2025-10-15",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "CTRLPLUS PTE. LTD.",
+     "amount": 355128.43
+    }
+   ],
+   "totalAwarded": 355128.43,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SSG000ETT25000001",
+   "description": "Invitation to Tender (ITT) for Business Process Outsourcing 2.0",
+   "agency": "SkillsFuture Singapore",
+   "awardDate": "2025-08-27",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "business process"
+   ],
+   "suppliers": [
+    {
+     "name": "ST ENGINEERING E-SERVICES PTE. LTD.",
+     "amount": 105616659.1
+    }
+   ],
+   "totalAwarded": 105616659.1,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CDA000ETT25000001",
+   "description": "INVITATION TO TENDER FOR THE PROVISION OF INTERIOR DESIGN, CHANGE MANAGEMENT AND PROJECT MANAGEMENT SERVICES FOR THE RENOVATION OF COMMUNICABLE DISEASES AGENCY (CDA) OFFICES",
+   "agency": "Communicable Diseases Agency",
+   "awardDate": "2025-07-15",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "ENGIE SERVICES SINGAPORE PTE. LTD.",
+     "amount": 498000.0
+    }
+   ],
+   "totalAwarded": 498000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NAC000ETT25000005",
+   "description": "The National Arts Council (NAC) introduced the Sustain the Arts (stART) Fund in 2021, guided by the outcome evaluation framework to make the impact of giving to the arts tangible. For the reporting, it is crucial to continue conducting exisiting capability development workshops for the stART groups to develop their programme reporting, which in turn contributes to the overall development of the annual stART Impact Report.",
+   "agency": "National Arts Council",
+   "awardDate": "2025-07-08",
+   "status": "Awarded to Suppliers",
+   "score": 7,
+   "matched": [
+    "capability development"
+   ],
+   "suppliers": [
+    {
+     "name": "VERIAN GROUP PTE. LTD.",
+     "amount": 383950.0
+    }
+   ],
+   "totalAwarded": 383950.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "AGC000ETT25000004",
+   "description": "PROCUREMENT OF ORGANISATION DEVELOPMENT SERVICES TO SUPPORT WORK PLANNING, CHANGE MANAGEMENT AND EMPLOYEE ENGAGEMENT INITIATIVES FOR AGC",
+   "agency": "Attorney-General's Chambers",
+   "awardDate": "2025-06-13",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "AADVANTAGE CONSULTING GROUP PTE. LTD.",
+     "amount": 99860.0
+    }
+   ],
+   "totalAwarded": 99860.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "LAWHQ0ETT25000001",
+   "description": "Invitation to Tender (ITT) for the Engagement of Change Management Consultants for the Legal Industry",
+   "agency": "Ministry of Law-Ministry Headquarter",
+   "awardDate": "2025-06-11",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "PRICEWATERHOUSECOOPERS SINGAPORE PTE. LTD.",
+     "amount": 987000.0
+    }
+   ],
+   "totalAwarded": 987000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "LTA000ETT24000066",
+   "description": "Automatic Fare Collection Cloud Transformation (ACT)",
+   "agency": "Land Transport Authority",
+   "awardDate": "2025-05-05",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "ACCENTURE PTE LTD",
+     "amount": 63860150.62
+    }
+   ],
+   "totalAwarded": 63860150.62,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CDVHQ0ETT24000026",
+   "description": "Invitation to Tender for the Provision of Consultancy Services for Job Redesign of Care Workers",
+   "agency": "Ministry of Social and Family Development - Ministry Headquarter",
+   "awardDate": "2025-04-03",
+   "status": "Awarded to Suppliers",
+   "score": 9,
+   "matched": [
+    "job redesign",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "Ernst & Young Advisory PTE. LTD.",
+     "amount": 891000.0
+    }
+   ],
+   "totalAwarded": 891000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SPO000ETT24000046",
+   "description": "SPO-REQ-2024-006883-INP-ITT for Consultancy and training project implementation SP Company and Workforce Transformation (SP CWT)",
+   "agency": "Singapore Polytechnic",
+   "awardDate": "2025-01-17",
+   "status": "Awarded to Suppliers",
+   "score": 10,
+   "matched": [
+    "workforce transformation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "CET GLOBAL PTE. LTD.",
+     "amount": 1931500.0
+    }
+   ],
+   "totalAwarded": 1931500.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "IPO000ETT24000006",
+   "description": "SUPPLY OF MATERIALS AND SERVICES PERTAINING TO INTELLECTUAL PROPERTY-RELATED TRAINING, EDUCATION AND CAPABILITY DEVELOPMENT UNDER A MASTER CONTRACT",
+   "agency": "Intellectual Property Office of Singapore",
+   "awardDate": "2025-01-13",
+   "status": "Awarded by Items",
+   "score": 7,
+   "matched": [
+    "capability development"
+   ],
+   "suppliers": [
+    {
+     "name": "ALPSOFT TECHNOLOGIES PTE. LTD.",
+     "amount": 1.0
+    },
+    {
+     "name": "IPOS INTERNATIONAL PTE. LTD.",
+     "amount": 1.0
+    }
+   ],
+   "totalAwarded": 2.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MOE000ETT23000087",
+   "description": "Tenderers are invited to submit a proposal for the provision of Consultancy Services to develop an implementation roadmap for the Digitalisation of the Special Education Sector.",
+   "agency": "Ministry of Education",
+   "awardDate": "2024-10-25",
+   "status": "Awarded to Suppliers",
+   "score": 7,
+   "matched": [
+    "digitalisation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "TEMUS PTE. LTD.",
+     "amount": 898800.0
+    }
+   ],
+   "totalAwarded": 898800.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "IRA000ETT24000002",
+   "description": "PROVISION OF CONSULTANCY SERVICES TO ENVISION THE FUTURES OF SERVICE DELIVERY FOR INDIVIDUAL TAXPAYERS",
+   "agency": "Inland Revenue Authority of Singapore",
+   "awardDate": "2024-09-20",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "service delivery",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "STUDIO DOJO PTE. LTD.",
+     "amount": 215699.0
+    }
+   ],
+   "totalAwarded": 215699.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NAC000ETT24000007",
+   "description": "The National Arts Council (NAC) introduced the Sustain the Arts (stART) Fund in 2021, guided by the outcome evaluation framework to make the impact of giving to the arts tangible. For the reporting, it is crucial to continue conducting exisiting capability development workshops for the stART groups to develop their programme reporting, which in turn contributes to the overall development of the annual stART Impact Report.",
+   "agency": "National Arts Council",
+   "awardDate": "2024-08-28",
+   "status": "Awarded to Suppliers",
+   "score": 7,
+   "matched": [
+    "capability development"
+   ],
+   "suppliers": [
+    {
+     "name": "VERIAN GROUP PTE. LTD.",
+     "amount": 132350.0
+    }
+   ],
+   "totalAwarded": 132350.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SSG000ETT24000006",
+   "description": "Provision of consultancy services for SSG/WSG Customer Experience Management Business Process Review Project",
+   "agency": "SkillsFuture Singapore",
+   "awardDate": "2024-08-20",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "business process",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "ACCENTURE SG SERVICES PTE. LTD.",
+     "amount": 330000.0
+    }
+   ],
+   "totalAwarded": 330000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "AGC000ETT24000001",
+   "description": "ITT for IT Change Management Services (AGC)",
+   "agency": "Attorney-General's Chambers",
+   "awardDate": "2024-05-23",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "ZENITH INFOTECH (S) PTE LTD.",
+     "amount": 8276280.0
+    }
+   ],
+   "totalAwarded": 8276280.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SSC000ETT23000041",
+   "description": "Provision of Consultancy Services to conduct a Landscape and Capability Development Study on the Sports and Exercise Industry",
+   "agency": "Singapore Sports Council (Sport Singapore)",
+   "awardDate": "2024-05-22",
+   "status": "Awarded to No Suppliers",
+   "score": 10,
+   "matched": [
+    "capability development",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "Unknown",
+     "amount": 0.0
+    }
+   ],
+   "totalAwarded": 0.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CAA000ETT24000002",
+   "description": "Provision of Consultancy Services for Aviation Sector Manpower Study.",
+   "agency": "Civil Aviation Authority of Singapore",
+   "awardDate": "2024-04-03",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "manpower study",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "Ernst & Young Advisory PTE. LTD.",
+     "amount": 550000.0
+    }
+   ],
+   "totalAwarded": 550000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MAS000ETT24000009",
+   "description": "INVITATION TO TENDER FOR UP TO FIVE RUNS OF THE LEADERSHIP DEVELOPMENT, CHANGE MANAGEMENT AND INFLUENCE MODULE IN THE MAS MANAGER DEVELOPMENT PROGRAMME II - MAS-REQ-2024-000176 - PDD (CYL)",
+   "agency": "Monetary Authority of Singapore",
+   "awardDate": "2024-03-25",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "BLUE DOT LEARNING PTE. LTD.",
+     "amount": 60650.0
+    }
+   ],
+   "totalAwarded": 60650.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "GVT000ETT23000024",
+   "description": "For the provision of a Software-as-a-Service (\"SaaS\") Portfolio and Project Management (\"PPM\") tool inclusive of Design, Configure, Customise, Install, Test and Commissioning with Onboarding, Change Management, Training, Operation and Maintenance Support (PR232158)",
+   "agency": "Government Technology Agency  (GovTech)",
+   "awardDate": "2024-03-21",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "PLANISWARE SA",
+     "amount": 1612550.0
+    }
+   ],
+   "totalAwarded": 1612550.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MPA000ETT23000022",
+   "description": "Provision of Consultancy Services for the Study on Improving Productivity and Sustainability in the Singapore Port / Logistics Ecosystem",
+   "agency": "Maritime and Port Authority of Singapore",
+   "awardDate": "2023-12-14",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "productivity",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "HASKONING SINGAPORE PTE. LTD.",
+     "amount": 815784.0
+    }
+   ],
+   "totalAwarded": 815784.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NCS000ETT23000009",
+   "description": "Tender for the Provision of Volunteer Management Capability Development (VMCD) Consultancy Project (Shivawn) - NCS-REQ-2023-000897",
+   "agency": "National Council of Social Service",
+   "awardDate": "2023-12-04",
+   "status": "Awarded to Suppliers",
+   "score": 10,
+   "matched": [
+    "capability development",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "EMPACT PTE. LTD.",
+     "amount": 535000.0
+    }
+   ],
+   "totalAwarded": 535000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SFA000ETT23000017",
+   "description": "Tender for Digital Transformation in NCFS via Supply, Development and Commissioning of Digital Archival System",
+   "agency": "Singapore Food Agency",
+   "awardDate": "2023-11-03",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "digital transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "MODEAK PTE. LTD.",
+     "amount": 631554.0
+    }
+   ],
+   "totalAwarded": 631554.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "GVT000ETT23000005",
+   "description": "FOR THE SUPPLY OF ROBOTIC PROCESS AUTOMATION (RPA) SOFTWARE AND SERVICES TO GOVERNMENT MINISTRIES/DEPARTMENTS, STATUTORY BOARDS, ORGANS OF STATE AND PARTICIPATING ENTITIES",
+   "agency": "Government Technology Agency  (GovTech)",
+   "awardDate": "2023-09-29",
+   "status": "Awarded by Items",
+   "score": 6,
+   "matched": [
+    "robotic process automation"
+   ],
+   "suppliers": [
+    {
+     "name": "COGNIZANT TECHNOLOGY SOLUTIONS ASIA PACIFIC PTE. LTD.",
+     "amount": 1.0
+    },
+    {
+     "name": "PRICEWATERHOUSECOOPERS RISK SERVICES PTE. LTD.",
+     "amount": 1.0
+    },
+    {
+     "name": "SIMPLIFYNEXT PTE. LTD.",
+     "amount": 1.0
+    }
+   ],
+   "totalAwarded": 3.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "BCA000ETT23000008",
+   "description": "CORENET X will be launched in end 2023 with a new interface and submission process to several agencies on a single portal. CXPO intends to engage a change management consultant to prepare our industry stakeholders to onboard CORENET X, and maintain the momentum post-launch.",
+   "agency": "Building and Construction Authority",
+   "awardDate": "2023-08-23",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "WSP CONSULTANCY PTE. LTD.",
+     "amount": 494508.0
+    }
+   ],
+   "totalAwarded": 494508.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SDC000ETT22000055",
+   "description": "APPOINTMENT OF A CONSULTANT TO STUDY, PROPOSE AND DEVELOP AN INTEGRATED FACILITIES MANAGEMENT IMPLEMENTATION PLAN INCLUDING FACILITIES MANAGEMENT WORKFORCE TRANSFORMATION FOR SENTOSA DEVELOPMENT CORPORATION",
+   "agency": "Sentosa Development Corporation",
+   "awardDate": "2023-07-04",
+   "status": "Awarded to Suppliers",
+   "score": 7,
+   "matched": [
+    "workforce transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "EY CORPORATE ADVISORS PTE. LTD.",
+     "amount": 1168000.0
+    }
+   ],
+   "totalAwarded": 1168000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "PAS000ETT23000038",
+   "description": "Provision of Digital Capability Development Services",
+   "agency": "People's Association",
+   "awardDate": "2023-06-28",
+   "status": "Awarded to Suppliers",
+   "score": 7,
+   "matched": [
+    "capability development"
+   ],
+   "suppliers": [
+    {
+     "name": "MAVEN POTTER LLP",
+     "amount": 268600.0
+    }
+   ],
+   "totalAwarded": 268600.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "AGC000ETT23000005",
+   "description": "ITT for IT Change Management Services",
+   "agency": "Attorney-General's Chambers",
+   "awardDate": "2023-06-19",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "SCIENTEC CONSULTING PTE. LTD.",
+     "amount": 804120.0
+    }
+   ],
+   "totalAwarded": 804120.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SSG000ETT23000001",
+   "description": "Invitation to Tender for Business Process Outsourcing - Benchmarking Study (BPO-BS)",
+   "agency": "SkillsFuture Singapore",
+   "awardDate": "2023-06-16",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "business process"
+   ],
+   "suppliers": [
+    {
+     "name": "EY CORPORATE ADVISORS PTE. LTD.",
+     "amount": 261679.0
+    }
+   ],
+   "totalAwarded": 261679.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CDVHQ0ETT22000043",
+   "description": "Invitation to Tender for the Provision of Change Management Service to Prepare Stakeholders for the Digital Transformation in Civil Marriage Process",
+   "agency": "Ministry of Social and Family Development - Ministry Headquarter",
+   "awardDate": "2023-05-22",
+   "status": "Awarded to Suppliers",
+   "score": 14,
+   "matched": [
+    "digital transformation",
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "DELOITTE SINGAPORE T&T PTE. LTD.",
+     "amount": 468000.0
+    }
+   ],
+   "totalAwarded": 468000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MPA000ETT23000001",
+   "description": "Provision of Transformation and Knowledge Management Consultancy Services",
+   "agency": "Maritime and Port Authority of Singapore",
+   "awardDate": "2023-04-22",
+   "status": "Awarded to Suppliers",
+   "score": 9,
+   "matched": [
+    "transformation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "KR KONSULTING PTE. LTD.",
+     "amount": 498328.0
+    }
+   ],
+   "totalAwarded": 498328.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CCY000ETT22000006",
+   "description": "PROVISION OF BUSINESS PROCESS REENGINEERING CONSULTANCY SERVICES",
+   "agency": "Ministry of Culture, Community and Youth - Ministry Headquarter",
+   "awardDate": "2023-02-08",
+   "status": "Awarded to Suppliers",
+   "score": 13,
+   "matched": [
+    "business process reengineering",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "PRICEWATERHOUSECOOPERS CONSULTING (SINGAPORE) PTE. LTD.",
+     "amount": 198000.0
+    }
+   ],
+   "totalAwarded": 198000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "FINVITETT22000011",
+   "description": "ITT for Supply, Delivery, Support of Robotic Process Automation (RPA) UIPath Software Licenses",
+   "agency": "Ministry of Finance - Vital",
+   "awardDate": "2022-12-19",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "robotic process automation"
+   ],
+   "suppliers": [
+    {
+     "name": "SIMPLIFYNEXT PTE. LTD.",
+     "amount": 2243140.0
+    }
+   ],
+   "totalAwarded": 2243140.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MPA000ETT22000018",
+   "description": "Three-Year Augmented Engineering Manpower Services For Port Systems Capability Development And Operations Support",
+   "agency": "Maritime and Port Authority of Singapore",
+   "awardDate": "2022-09-29",
+   "status": "Awarded by Items",
+   "score": 7,
+   "matched": [
+    "capability development"
+   ],
+   "suppliers": [
+    {
+     "name": "APBA TG HUMAN RESOURCE PTE. LTD.",
+     "amount": 1368000.0
+    },
+    {
+     "name": "NCS PTE. LTD.",
+     "amount": 3214440.0
+    }
+   ],
+   "totalAwarded": 4582440.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "IPO000ETT22000003",
+   "description": "FOR THE SUPPLY OF MATERIALS AND SERVICES PERTAINING TO INTELLECTUAL PROPERTY-RELATED TRAINING, EDUCATION AND CAPABILITY DEVELOPMENT UNDER A MASTER CONTRACT",
+   "agency": "Intellectual Property Office of Singapore",
+   "awardDate": "2022-09-22",
+   "status": "Awarded to Suppliers",
+   "score": 7,
+   "matched": [
+    "capability development"
+   ],
+   "suppliers": [
+    {
+     "name": "IPOS INTERNATIONAL PTE. LTD.",
+     "amount": 1173160.0
+    }
+   ],
+   "totalAwarded": 1173160.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "GVT000ETT22000017",
+   "description": "FOR THE SUPPLY AND DELIVERY OF HUMAN RESOURCE BUSINESS PROCESS OUTSOURCING SERVICES - GVT(T)22019 (PR221182)",
+   "agency": "Government Technology Agency  (GovTech)",
+   "awardDate": "2022-09-08",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "business process"
+   ],
+   "suppliers": [
+    {
+     "name": "PERSOL OUTSOURCING SINGAPORE PTE. LTD.",
+     "amount": 5047434.0
+    }
+   ],
+   "totalAwarded": 5047434.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NCS000ETT22000012",
+   "description": "Tender for the Provision of Volunteer Management Capability Development Consultancy Project (Esther Lau) - MA",
+   "agency": "National Council of Social Service",
+   "awardDate": "2022-09-05",
+   "status": "Awarded by Items",
+   "score": 10,
+   "matched": [
+    "capability development",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "EMPACT PTE. LTD.",
+     "amount": 190000.0
+    },
+    {
+     "name": "Ernst & Young Advisory PTE. LTD.",
+     "amount": 212000.0
+    }
+   ],
+   "totalAwarded": 402000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "AGC000ETT22000002",
+   "description": "ITT for the provision of AGC-wide business process & resource allocation review",
+   "agency": "Attorney-General's Chambers",
+   "awardDate": "2022-09-05",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "business process"
+   ],
+   "suppliers": [
+    {
+     "name": "PRICEWATERHOUSECOOPERS CONSULTING (SINGAPORE) PTE. LTD.",
+     "amount": 1350000.0
+    }
+   ],
+   "totalAwarded": 1350000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NAC000ETT22000005",
+   "description": "The Sector Transformation Fund (STF) provides support for arts companies' transformation efforts. As part of the end-to-end support for companies throughout the transformation journey, STF includes a Consultancy Support Stage to identify problem statements and develop strategies within arts companies, and NAC will be appointing a STF panel of consultants to provide these services.  Please refer to Annex C - Requirements Specifications for more details",
+   "agency": "National Arts Council",
+   "awardDate": "2022-08-25",
+   "status": "Awarded by Items",
+   "score": 9,
+   "matched": [
+    "transformation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "108 GROWTH PARTNERS PTE. LTD.",
+     "amount": 61000.0
+    },
+    {
+     "name": "BINOMIAL PTE. LTD.",
+     "amount": 72000.0
+    },
+    {
+     "name": "EMPACT PTE. LTD.",
+     "amount": 50000.0
+    },
+    {
+     "name": "IDEACTIO PTE. LTD.",
+     "amount": 64000.0
+    },
+    {
+     "name": "ORCADESIGN CONSULTANTS PTE. LTD.",
+     "amount": 64600.0
+    },
+    {
+     "name": "RHINDON PTE. LTD.",
+     "amount": 56350.0
+    },
+    {
+     "name": "SAVANT DEGREES PTE. LTD.",
+     "amount": 70100.0
+    },
+    {
+     "name": "TANGIBLE PTE. LTD.",
+     "amount": 88800.0
+    },
+    {
+     "name": "THE CURIOUS PEOPLE SOLUTIONS PTE. LTD.",
+     "amount": 71800.0
+    },
+    {
+     "name": "THE OS COLLECTIVE PTE. LTD.",
+     "amount": 129750.0
+    }
+   ],
+   "totalAwarded": 728400.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CDVHQ0ETT21000038",
+   "description": "Invitation to Tender the provision of agile system development and maintenance for the FAMILIES FOR LIFE(FFL) Portal and Change Management Services",
+   "agency": "Ministry of Social and Family Development - Ministry Headquarter",
+   "awardDate": "2022-08-24",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "AVEPOINT SINGAPORE PTE. LTD.",
+     "amount": 5398424.04
+    }
+   ],
+   "totalAwarded": 5398424.04,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MAS000ETT22000019",
+   "description": "INVITATION TO TENDER FOR THE PROVISION OF BUSINESS PROCESS OPERATIONS SERVICES FOR MEPS+ SYSTEMS (MAS-REQ-2022-000508-ITD/MC)",
+   "agency": "Monetary Authority of Singapore",
+   "awardDate": "2022-08-24",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "business process"
+   ],
+   "suppliers": [
+    {
+     "name": "ST ENGINEERING E-SERVICES PTE. LTD.",
+     "amount": 643600.0
+    }
+   ],
+   "totalAwarded": 643600.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "GVT000ETT22000005",
+   "description": "FOR THE PROVISION OF CONSULTANCY SERVICES TO PROPOSE AND SUPPORT THE CHANGE MANAGEMENT SERVICES FOR THE SUCCESSFUL  IMPLEMENTATION OF ICT CHANGE - GVT(T)22005 (PR220236)",
+   "agency": "Government Technology Agency  (GovTech)",
+   "awardDate": "2022-07-19",
+   "status": "Awarded to Suppliers",
+   "score": 11,
+   "matched": [
+    "change management",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "ACCENTURE SG SERVICES PTE. LTD.",
+     "amount": 1360000.0
+    }
+   ],
+   "totalAwarded": 1360000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NCS000ETT22000005",
+   "description": "Tender for the Provision of Consultancy Services to Support Social Service Agencies in Innovation and Productivity (The Community Capability Trust) under a Period Contract (Tracy Wong)|50108",
+   "agency": "National Council of Social Service",
+   "awardDate": "2022-06-20",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "productivity",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "CAPELLE CONSULTING PTE. LTD.",
+     "amount": 8583200.0
+    }
+   ],
+   "totalAwarded": 8583200.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "ESG000ETT21000025",
+   "description": "2021 Manpower Study of the Food Services Industry",
+   "agency": "Enterprise Singapore",
+   "awardDate": "2022-05-19",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "manpower study"
+   ],
+   "suppliers": [
+    {
+     "name": "Ernst & Young Advisory PTE. LTD.",
+     "amount": 678000.0
+    }
+   ],
+   "totalAwarded": 678000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SLA000ETT21000025",
+   "description": "Invitation to Tender for the Geospatial Market and Manpower Study",
+   "agency": "Singapore Land Authority",
+   "awardDate": "2022-03-25",
+   "status": "Awarded to No Suppliers",
+   "score": 5,
+   "matched": [
+    "manpower study"
+   ],
+   "suppliers": [
+    {
+     "name": "Unknown",
+     "amount": 0.0
+    }
+   ],
+   "totalAwarded": 0.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "STB000ETT22000001",
+   "description": "REQUEST FOR PROPOSAL TO CONDUCT HOTEL SECTORAL MANPOWER STUDY",
+   "agency": "Singapore Tourism Board",
+   "awardDate": "2022-02-17",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "manpower study"
+   ],
+   "suppliers": [
+    {
+     "name": "Ernst & Young Advisory PTE. LTD.",
+     "amount": 683000.0
+    }
+   ],
+   "totalAwarded": 683000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SPO000ETT21000053",
+   "description": "SPO-REQ-2021-002413 Term Contractor for project implementation with Singapore Polytechnic under Company & Workforce Transformation (CWT) initiative",
+   "agency": "Singapore Polytechnic",
+   "awardDate": "2022-01-27",
+   "status": "Awarded to Suppliers",
+   "score": 7,
+   "matched": [
+    "workforce transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "CET GLOBAL PTE. LTD.",
+     "amount": 960000.0
+    }
+   ],
+   "totalAwarded": 960000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NCS000ETT21000011",
+   "description": "Invitation to Tender for the Provision of Consultancy Services for Digitalisation Period Contract (Tina)|50093",
+   "agency": "National Council of Social Service",
+   "awardDate": "2022-01-11",
+   "status": "Awarded by Items",
+   "score": 7,
+   "matched": [
+    "digitalisation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "DESIGN SOJOURN PTE. LTD.",
+     "amount": 407700.0
+    },
+    {
+     "name": "TQ SOLUTIONS PTE. LTD.",
+     "amount": 383450.0
+    }
+   ],
+   "totalAwarded": 791150.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SPO000ETT21000048",
+   "description": "SPO-REQ-2021-001669 Tender for Term Contractor for consultancy and training projects with Singapore Polytechnic under the Company and Workforce Transformation (CWT) initiative - focusing on Company Transformation projects",
+   "agency": "Singapore Polytechnic",
+   "awardDate": "2021-12-28",
+   "status": "Awarded to Suppliers",
+   "score": 16,
+   "matched": [
+    "workforce transformation",
+    "transformation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "CONTENTFACTORY PTE. LTD.",
+     "amount": 920800.0
+    }
+   ],
+   "totalAwarded": 920800.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "TOT000ETT21000005",
+   "description": "INVITATION TO TENDER FOR THE PROVISION OF CONSULTANCY SERVICES FOR TOTE BOARD TRANSFORMATION",
+   "agency": "Tote Board",
+   "awardDate": "2021-12-27",
+   "status": "Awarded by Items",
+   "score": 9,
+   "matched": [
+    "transformation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "EY CORPORATE ADVISORS PTE. LTD.",
+     "amount": 3700000.0
+    },
+    {
+     "name": "MERCER (SINGAPORE) PTE. LTD.",
+     "amount": 52000.0
+    }
+   ],
+   "totalAwarded": 3752000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CPF000ETT21000026",
+   "description": "Period Contract for Lean Six Sigma Courses and Project Coaching Session",
+   "agency": "Central Provident Fund Board",
+   "awardDate": "2021-12-20",
+   "status": "Awarded to Suppliers",
+   "score": 9,
+   "matched": [
+    "lean six sigma"
+   ],
+   "suppliers": [
+    {
+     "name": "LEAN INSTITUTE ASIA PTE. LTD.",
+     "amount": 256800.0
+    }
+   ],
+   "totalAwarded": 256800.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "EDB000ETT21000014",
+   "description": "Invitation to Tender T15/2021 for the Appointment of a Design and Strategic Space & Change Management Consultant to Undertake a Space Review Study and Design Consultancy Services for EDB Existing Office at 250 North Bridge Road, Raffles City Tower, Singapore 179101. OIC Brenda Yeo (PR 20210811).",
+   "agency": "Economic Development Board",
+   "awardDate": "2021-11-30",
+   "status": "Awarded to Suppliers",
+   "score": 11,
+   "matched": [
+    "change management",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "JONES LANG LASALLE PROPERTY CONSULTANTS PTE LTD",
+     "amount": 162982.0
+    }
+   ],
+   "totalAwarded": 162982.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "EDB000ETT21000011",
+   "description": "Tender T03/2021 for the Study on Supply Chain Management Jobs Transformation (\"JTM\"). Requester: Denise Lim.",
+   "agency": "Economic Development Board",
+   "awardDate": "2021-10-26",
+   "status": "Awarded to Suppliers",
+   "score": 6,
+   "matched": [
+    "transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "IPSOS PTE. LTD.",
+     "amount": 370000.0
+    }
+   ],
+   "totalAwarded": 370000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "FINVITETT21000008",
+   "description": "INVITATION TO TENDER FOR THE SUBSCRIPTION OF RESEARCH AND BUSINESS ADVISORY SERVICES ON BUSINESS PROCESS OUTSOURCING (BPO) AND SHARED SERVICES",
+   "agency": "Ministry of Finance - Vital",
+   "awardDate": "2021-09-24",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "business process"
+   ],
+   "suppliers": [
+    {
+     "name": "GARTNER ADVISORY (SINGAPORE) PTE LTD",
+     "amount": 993000.0
+    }
+   ],
+   "totalAwarded": 993000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SPO000ETT21000021",
+   "description": "RO21/PACE/0016 Business Process Re-Engineering (BPR) Consultancy Project for the PACE (PACE) Academy, Singapore Polytechnic",
+   "agency": "Singapore Polytechnic",
+   "awardDate": "2021-08-30",
+   "status": "Awarded to Suppliers",
+   "score": 13,
+   "matched": [
+    "business process re-engineering",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "FLEX-SOLVER PTE. LTD.",
+     "amount": 249900.0
+    }
+   ],
+   "totalAwarded": 249900.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NCS000ETT21000004",
+   "description": "Tender for the Provision of Consultancy Services for Enterprise Transformation - Digitalisation Capability Project (Lisa)|50075",
+   "agency": "National Council of Social Service",
+   "awardDate": "2021-08-26",
+   "status": "Awarded to Suppliers",
+   "score": 13,
+   "matched": [
+    "transformation",
+    "digitalisation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "CAPELLE CONSULTING PTE. LTD.",
+     "amount": 360000.0
+    }
+   ],
+   "totalAwarded": 360000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MUI000ETT21000005",
+   "description": "Tender for Process Improvement Consultancy Services",
+   "agency": "Majlis Ugama Islam Singapura",
+   "awardDate": "2021-08-23",
+   "status": "Awarded to Suppliers",
+   "score": 10,
+   "matched": [
+    "process improvement",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "PRICEWATERHOUSECOOPERS MANAGEMENT SERVICES PTE LTD",
+     "amount": 199100.0
+    }
+   ],
+   "totalAwarded": 199100.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "BCA000ETT21000009",
+   "description": "TENDER FOR THE PROVISION OF CONSULTANCY SERVICES FOR (i) DESIGN AND CONSTRUCTION, (ii) FACILITY MANAGEMENT CLUSTER, MANPOWER STUDY",
+   "agency": "Building and Construction Authority",
+   "awardDate": "2021-08-06",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "manpower study",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "Ernst & Young Advisory PTE. LTD.",
+     "amount": 888000.0
+    }
+   ],
+   "totalAwarded": 888000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "AGC000ETT21000002",
+   "description": "INVITATION TO TENDER FOR IT CHANGE MANAGEMENT SERVICES",
+   "agency": "Attorney-General's Chambers",
+   "awardDate": "2021-07-14",
+   "status": "Awarded by Items",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "WSH EXPERTS PTE. LTD.",
+     "amount": 589920.0
+    },
+    {
+     "name": "ZENITH INFOTECH (S) PTE LTD.",
+     "amount": 2078040.0
+    }
+   ],
+   "totalAwarded": 2667960.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "ESG000ETT21000001",
+   "description": "Appointment of a Service Provider to Conduct a Manpower Study for the Retail Sector in Singapore",
+   "agency": "Enterprise Singapore",
+   "awardDate": "2021-07-14",
+   "status": "Awarded to Suppliers",
+   "score": 5,
+   "matched": [
+    "manpower study"
+   ],
+   "suppliers": [
+    {
+     "name": "MERCER (SINGAPORE) PTE. LTD.",
+     "amount": 598000.0
+    }
+   ],
+   "totalAwarded": 598000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "NAC000ETT21000009",
+   "description": "NAC is launching a BTG to support grounds-up interest by arts companies to support digital and non-digital transformation efforts. To support these transformation efforts, NAC is appointing a panel of consultants with relevant experience and skillsets to support arts companies in the planning of their transformation projects",
+   "agency": "National Arts Council",
+   "awardDate": "2021-06-30",
+   "status": "Awarded by Items",
+   "score": 12,
+   "matched": [
+    "digital transformation",
+    "transformation"
+   ],
+   "suppliers": [
+    {
+     "name": "CHEMISTRY TEAM PTE. LTD.",
+     "amount": 3880.0
+    },
+    {
+     "name": "DESIRE LINES PTE. LTD.",
+     "amount": 4465.0
+    },
+    {
+     "name": "EMPACT PTE. LTD.",
+     "amount": 5200.0
+    },
+    {
+     "name": "MAGICFRUIT PTE. LTD.",
+     "amount": 9060.0
+    },
+    {
+     "name": "PEBBLEROAD PTE. LTD.",
+     "amount": 2000.0
+    },
+    {
+     "name": "THINKPLACE SINGAPORE PTE. LTD.",
+     "amount": 6578.0
+    }
+   ],
+   "totalAwarded": 31183.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CDVHQ0ETT20300026",
+   "description": "Invitation to Tender for the Provision of Agile Application Development, Maintenance And Change Management Services Of Integrated Visit Limit And Exclusion Management System (IVEMS) For National Council On Problem Gambling (NCPG)",
+   "agency": "Ministry of Social and Family Development - Ministry Headquarter",
+   "awardDate": "2021-06-18",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "AVEPOINT SINGAPORE PTE. LTD.",
+     "amount": 1855541.5
+    }
+   ],
+   "totalAwarded": 1855541.5,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "SFA000ETT21000002",
+   "description": "Invitation to Tender for Provision of Consultancy services for business process reengineering (BPR) Study",
+   "agency": "Singapore Food Agency",
+   "awardDate": "2021-05-31",
+   "status": "Awarded to Suppliers",
+   "score": 13,
+   "matched": [
+    "business process reengineering",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "DELOITTE SINGAPORE T&T PTE. LTD.",
+     "amount": 790000.0
+    }
+   ],
+   "totalAwarded": 790000.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CPF000ETT20300032",
+   "description": "Framework Agreement for Change Management Consultancy Services",
+   "agency": "Central Provident Fund Board",
+   "awardDate": "2021-05-20",
+   "status": "Awarded by Items",
+   "score": 11,
+   "matched": [
+    "change management",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "DELOITTE SINGAPORE T&T PTE. LTD.",
+     "amount": 173.5
+    },
+    {
+     "name": "Ernst & Young Advisory PTE. LTD.",
+     "amount": 100.0
+    },
+    {
+     "name": "PRICEWATERHOUSECOOPERS MANAGEMENT SERVICES PTE LTD",
+     "amount": 81.0
+    }
+   ],
+   "totalAwarded": 354.5,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "CDVHQ0ETT20300012",
+   "description": "Invitation to Tender for the Provision of Agile System Development and Maintenance for the Pre-Divorce Support Portal and Change Management Services",
+   "agency": "Ministry of Social and Family Development - Ministry Headquarter",
+   "awardDate": "2021-05-07",
+   "status": "Awarded to Suppliers",
+   "score": 8,
+   "matched": [
+    "change management"
+   ],
+   "suppliers": [
+    {
+     "name": "DELOITTE SINGAPORE T&T PTE. LTD.",
+     "amount": 5536630.0
+    }
+   ],
+   "totalAwarded": 5536630.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "MPA000ETT21000009",
+   "description": "Purchase of Robotic Process Automation and Optical Character Recognition Software Licenses for Three Years",
+   "agency": "Maritime and Port Authority of Singapore",
+   "awardDate": "2021-05-05",
+   "status": "Awarded by Items",
+   "score": 6,
+   "matched": [
+    "robotic process automation"
+   ],
+   "suppliers": [
+    {
+     "name": "KG INFORMATION SYSTEMS PTE. LTD.",
+     "amount": 89139.0
+    },
+    {
+     "name": "SIMPLIFYNEXT PTE. LTD.",
+     "amount": 71034.0
+    }
+   ],
+   "totalAwarded": 160173.0,
+   "firstSeen": "2026-07-15"
+  },
+  {
+   "tenderNo": "LTA000ETT20300096",
+   "description": "Provision of Consultancy and Implementation Services for Robotic Process Automation",
+   "agency": "Land Transport Authority",
+   "awardDate": "2021-04-06",
+   "status": "Awarded to Suppliers",
+   "score": 9,
+   "matched": [
+    "robotic process automation",
+    "consultancy"
+   ],
+   "suppliers": [
+    {
+     "name": "SIMPLIFYNEXT PTE. LTD.",
+     "amount": 782950.0
+    }
+   ],
+   "totalAwarded": 782950.0,
+   "firstSeen": "2026-07-15"
+  }
+ ]
+}

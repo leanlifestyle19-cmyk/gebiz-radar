@@ -1,10 +1,10 @@
 {
  "meta": {
-  "lastUpdated": "2026-07-15T22:28:52+08:00",
+  "lastUpdated": "2026-07-20T11:51:34+08:00",
   "sourceDataset": "d_acde1106003906a75c3fa052592f2fcb",
   "sourceRows": 18464,
   "matchedTenders": 73,
-  "newThisRun": 73,
+  "newThisRun": 0,
   "minScore": 5
  },
  "agencies": [
